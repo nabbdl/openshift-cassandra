@@ -52,7 +52,3 @@ RUN  mkdir -p /var/lib/cassandra \
 USER 313	
 
 VOLUME /var/lib/cassandra
-
-CMD /opt/apache-cassandra/bin/docker-entrypoint-stateful-sets.sh
-
-
