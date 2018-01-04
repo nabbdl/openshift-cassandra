@@ -53,6 +53,6 @@ USER 313
 
 VOLUME /var/lib/cassandra
 
-CMD /opt/apache-cassandra/bin/docker-entrypoint.sh
+CMD /opt/apache-cassandra/bin/docker-entrypoint-stateful-sets.sh
 
 
